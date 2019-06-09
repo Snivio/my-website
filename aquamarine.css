@@ -6698,3 +6698,18 @@ body > * {
 .cbp-caption-defaultWrap i {
   margin-left: -26px;
   margin-right: 10px; }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #dcdde1 !important; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #151515 !important; 
+}
