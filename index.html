@@ -17,23 +17,14 @@
   <script src="https://res.cloudinary.com/dffbsypcx/raw/upload/v1560086885/snivio-website/js/animate-in.js"></script>
   <!-- load css for cubeportfolio -->
   <link rel="stylesheet" type="text/css" href="https://res.cloudinary.com/dffbsypcx/raw/upload/v1560086851/snivio-website/css/cubeportfolio.min.css">
-  <style>
-    .cbp-caption-expand .cbp-caption-defaultWrap{
-      align-items:center;
-    }
-    .expirence-container:hover{
-    transition: transform .62s cubic-bezier(.165,.84,.44,1),box-shadow .62s cubic-bezier(.165,.84,.44,1);
-    transition-delay: 0s;
-    transform: translate3d(0,-5px,0); 
-    }
-    
-    
-  </style>
+  <!--Load the Three js libraray-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"></script>  
+  <link rel="stylesheet" href="https://res.cloudinary.com/dffbsypcx/raw/upload/v1584288421/snivio-website/css/new-styles.css">
 </head>
 
 <body class="text-center">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-md fixed-top bg-lights navbar-light">
     <div class="container">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false"
@@ -53,22 +44,21 @@
             <a class="nav-link" href="#experence">Experience</a>
           </li>
         </ul>
-        <a class="btn navbar-btn mx-2 text-white btn-outline-light" href="#contact-me">Contact Me</a>
+        <a class="btn navbar-btn mx-2 btn-outline-dark" href="#contact-me">Contact Me</a>
       </div>
     </div>
   </nav>
   <!-- Cover -->
-  <div class="d-flex align-items-center section-aquamarine py-5 cover"
-    style="background-image: url(&quot;https://res.cloudinary.com/dffbsypcx/image/upload/v1560086826/snivio-website/images/cover.jpg&quot;);"
+  <div class="d-flex align-items-center py-5 cover waves"
     id="home">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-white mt-5">
+        <div class="col-lg-12 text-dark mt-5">
           <h1 class="display-2 d-none d-md-block">Snivio Braganca</h1>
           <h1 class="display-4 d-block d-md-none">Snivio Braganca</h1>
           <h4 class="">This is My Online Portfolio Feel Free to Look Around</h4>
           <div class="arrow bounce">
-            <a href="#about-me"><i class="d-block fa fa-3x fa-angle-down pt-5"></i></a>
+            <a href="#about-me" style="color: #232222;"><i class="d-block fa fa-3x fa-angle-down pt-5"></i></a>
           </div>
         </div>
       </div>
@@ -107,7 +97,7 @@
   <div class="pb-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-12"><a class="btn btn-secondary adbout-me-btn" href="#resume" style="">Learn More</a></div>
+        <div class="col-md-12"><a class="btn btn-secondary adbout-me-btn" href="#resume" >Learn More</a></div>
       </div>
     </div>
   </div>
@@ -618,16 +608,7 @@
   <script type="text/javascript" src="https://res.cloudinary.com/dffbsypcx/raw/upload/v1560086885/snivio-website/js/jquery.cubeportfolio.min.js"></script>
   <!-- init cubeportfolio -->
   <script type="text/javascript" src="https://res.cloudinary.com/dffbsypcx/raw/upload/v1560086885/snivio-website/js/skills.js"></script>
-  <script>
-    (()=>{
-   if (screen.width < 768) {
-           $('div').removeClass(['animate-in-left','animate-in-right']);
-      $('img').removeClass(['animate-in-left','animate-in-right']);
-  
-       }
-  
-  })()
-    </script>
+    <script src="https://res.cloudinary.com/dffbsypcx/raw/upload/v1584288455/snivio-website/js/advance-handler.js"></script>
 </body>
 
 </html>
